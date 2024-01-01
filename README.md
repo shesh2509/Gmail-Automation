@@ -32,7 +32,6 @@ First Thing to do go to Google Cloud Console and set up the OAuth 2.0 authentica
 
 1. Google API Libraries ->  Used to authenticate with Google, retrieve unreplied messages, send vacation replies, create labels, and modify labels on messages.
 2. Google OAuth Local Authentication -> Used to authenticate the application with the necessary scopes for accessing Gmail.
-3. File System Promises (fs.promises) -> Used to read the content of the credentials file.
 
 
 
