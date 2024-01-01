@@ -12,7 +12,6 @@ Adds a label to the email and moves the email to the label.
 This app checks above steps every 45 to 120 in b/w sec random time interval.
 
 
-
 # Libraries and technologies used
 
 1. Google API Libraries ->  Used to authenticate with Google, retrieve unreplied messages, send vacation replies, create labels, and modify labels on messages.
