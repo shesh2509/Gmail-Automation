@@ -5,11 +5,11 @@ Description -This is a repository for Auto_reply_gmail_api_app App Developed usi
 
 Features
 
-Node.js clusters support.
-Checks for new emails in a given Gmail ID.
-Sends replies to emails that have no prior replies.
-Adds a label to the email and moves the email to the label.
-This app checks above steps every 45 to 120 in b/w sec random time interval.
+1. Node.js clusters support.
+2. Checks for new emails in a given Gmail ID.
+3. Sends replies to emails that have no prior replies.
+4. Adds a label to the email and moves the email to the label.
+5. This app checks above steps every 45 to 120 in b/w sec random time interval.
 
 
 # Libraries and technologies used
