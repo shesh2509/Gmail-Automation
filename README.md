@@ -25,7 +25,7 @@ First Thing to do go to Google Cloud Console and set up the OAuth 2.0 authentica
 7. Click on the "Create" button to create the OAuth client ID. You will see a modal displaying the client ID and client secret. Copy the values of the client ID and client secret.
 8. Enable gmail api.
 9. Now, in your code, replace the placeholder values in the credentials.json file with the respective values you obtained: Add client_id value. Add client_secret value. Add redirect_uris and all.
-10. Save the credentials.js file.
+10. Save the credentials.json file.
 
 
 # Libraries and technologies used
