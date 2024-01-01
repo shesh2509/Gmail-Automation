@@ -12,6 +12,22 @@ Features
 5. This app checks above steps every 45 to 120 in b/w sec random time interval.
 
 
+Getting Started
+
+First Thing to do go to Google Cloud Console and set up the OAuth 2.0 authentication for your application, follow these steps:
+
+1. Go to the Google Cloud Console (https://console.developers.google.com) and create a new project. Provide a suitable name for your project and click on the "Create" button.
+2. Once the project is created, click on the project name to navigate to the project dashboard.
+3. In the left sidebar, click on the "Credentials" tab under the "APIs & Services" section.
+4. On the Credentials page, click on the "Create credentials" button and select "OAuth client ID" from the dropdown menu.
+5. Select the application type as "Web application" and provide a name for the OAuth 2.0 client ID.
+6. In the "Authorized redirect URIs" field, enter the redirect URI where you want to receive the authorization code. For this code, you can use "http://localhost:3000/oauth2callback".
+7. Click on the "Create" button to create the OAuth client ID. You will see a modal displaying the client ID and client secret. Copy the values of the client ID and client secret.
+8. Enable gmail api.
+9. Now, in your code, replace the placeholder values in the credentials.json file with the respective values you obtained: Add client_id value. Add client_secret value. Add redirect_uris and all.
+10. Save the credentials.js file.
+
+
 # Libraries and technologies used
 
 1. Google API Libraries ->  Used to authenticate with Google, retrieve unreplied messages, send vacation replies, create labels, and modify labels on messages.
